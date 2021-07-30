@@ -16,7 +16,10 @@
 	<properties>
 		<java.version>16</java.version>
 		<maven.compiler.source>16</maven.compiler.source>
-		<maven.compiler.target>16</maven.compiler.target>		
+		<maven.compiler.target>16</maven.compiler.target>
+		  <sonar.projectKey>rnogueradrum_Jenkins-project</sonar.projectKey>
+  		  <sonar.organization>rnogueradrum</sonar.organization>
+ 		  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
 	  	<dependency>
